@@ -11,7 +11,7 @@ public class Ex05 {
 		float preco = 0;
 		String produto = "";
 
-		System.out.printf("%-20s %-20s %-15s%n", "Código do Produto", "Produto", "Preço Unitário");
+		System.out.printf("%-20s" "%-20s %-15s%n", "Código do Produto", "Produto", "Preço Unitário");
 		System.out.println("---------------------------------------------------------------");
 		System.out.printf("%-20d %-20s %-15s%n", 1, "Cachorro Quente", "R$ 10.00");
 		System.out.printf("%-20d %-20s %-15s%n", 2, "X-Salada", "R$ 15.00");

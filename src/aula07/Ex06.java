@@ -44,12 +44,12 @@ public class Ex06 {
 			cargo = "Técnico de TI";
 			break;
 		}
-		
+
 		System.out.println("--------------------------------");
-		System.out.println("Colaborador: "+ nome);
-		System.out.println("Cargo: "+ cargo);
-		System.out.println("Salário com reajuste: "+ reajuste);
-		
+		System.out.println("Colaborador: " + nome);
+		System.out.println("Cargo: " + cargo);
+		System.out.println("Salário com reajuste: " + reajuste);
+
 	}
 
 }
