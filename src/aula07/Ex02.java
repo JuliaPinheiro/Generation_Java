@@ -16,7 +16,8 @@ public class Ex02 {
 		} else if (numero < 0) {
 			System.out.println("o número "+numero +" é "+parOuImpar+ " e negativo");
 		}
-	
+		
+		scan.close();
 	}
 	 
 }
