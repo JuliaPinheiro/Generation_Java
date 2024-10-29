@@ -1,5 +1,7 @@
 package aula07;
+
 import java.util.Scanner;
+
 public class Ex04 {
 	public static void main(String[] args) {
 		String escolha = "";
@@ -11,46 +13,46 @@ public class Ex04 {
 		System.out.println("------------------");
 		int opcao = scan.nextInt();
 		scan.nextLine();
-		if(opcao != 1 && opcao != 2) {
+		if (opcao != 1 && opcao != 2) {
 			System.out.println("Opção inválida");
 		}
-		if(opcao == 1) {
+		if (opcao == 1) {
 			System.out.println("Ave ou Mamifero?");
 			escolha = scan.nextLine();
-			if(escolha.equalsIgnoreCase("ave")) {
+			if (escolha.equalsIgnoreCase("ave")) {
 				System.out.println("Carnívoro ou Onívoro");
 				escolha = scan.nextLine();
-				if(escolha.equalsIgnoreCase("Carnívoro")) {
+				if (escolha.equalsIgnoreCase("Carnívoro")) {
 					System.out.println("Águia");
-				} else if(escolha.equalsIgnoreCase("Onívoro")) {
+				} else if (escolha.equalsIgnoreCase("Onívoro")) {
 					System.out.println("Pomba");
 				}
-			} else if(escolha.equalsIgnoreCase("Mamifero")) {
+			} else if (escolha.equalsIgnoreCase("Mamifero")) {
 				System.out.println("Onívoro ou Herbívoro?");
 				escolha = scan.nextLine();
-				if(escolha.equalsIgnoreCase("Onívoro")) {
+				if (escolha.equalsIgnoreCase("Onívoro")) {
 					System.out.println("Homem");
-				} else if(escolha.equalsIgnoreCase("Herbívoro")) {
+				} else if (escolha.equalsIgnoreCase("Herbívoro")) {
 					System.out.println("Vaca");
 				}
 			}
-		} else if(opcao == 2) {
+		} else if (opcao == 2) {
 			System.out.println("Inseto ou Anelídeo");
 			escolha = scan.nextLine();
-			if(escolha.equalsIgnoreCase("Inseto")) {
+			if (escolha.equalsIgnoreCase("Inseto")) {
 				System.out.println("Hematófago ou Herbívoro?");
 				escolha = scan.nextLine();
-				if(escolha.equalsIgnoreCase("Hematófago")) {
+				if (escolha.equalsIgnoreCase("Hematófago")) {
 					System.out.println("Pulga");
-				} else if(escolha.equalsIgnoreCase("Herbívoro")) {
+				} else if (escolha.equalsIgnoreCase("Herbívoro")) {
 					System.out.println("Lagarta");
 				}
-			} else if(escolha.equalsIgnoreCase("Anelídeo")) {
+			} else if (escolha.equalsIgnoreCase("Anelídeo")) {
 				System.out.println("Hematófago ou Onívoro");
 				escolha = scan.nextLine();
-				if(escolha.equalsIgnoreCase("Hematófago")) {
+				if (escolha.equalsIgnoreCase("Hematófago")) {
 					System.out.println("Sanguessuga");
-				} else if(escolha.equalsIgnoreCase("Onívoro")) {
+				} else if (escolha.equalsIgnoreCase("Onívoro")) {
 					System.out.println("Minhoca");
 				}
 			}

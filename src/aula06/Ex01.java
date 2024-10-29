@@ -21,6 +21,8 @@ public class Ex01 {
 		
 		System.out.println("Seu novo salário é de: "+ novoSalario);
 		
+		scan.close();
 	}
+	
 
 }

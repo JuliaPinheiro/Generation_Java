@@ -27,5 +27,6 @@ public class Ex02 {
 		
 		System.out.printf("Média das notas: "+ media);
 		
+		scan.close();
 	}
 }
