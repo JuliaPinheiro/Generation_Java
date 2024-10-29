@@ -52,10 +52,12 @@ public class Ex05 {
 
 		System.out.println("Quantos você deseja?");
 		quantidade = scan.nextInt();
-		
+
 		float valorTotal = (quantidade * preco);
-		
-		System.out.println("Produto: "+ produto);
-		System.out.println("Valor total: "+ valorTotal);
+
+		System.out.println("Produto: " + produto);
+		System.out.println("Valor total: " + valorTotal);
+
+		scan.close();
 	}
 }
