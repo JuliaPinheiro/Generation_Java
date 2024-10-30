@@ -20,6 +20,8 @@ public class Ex02 {
 
 			System.out.println("Total de números pares: " + counterPair + " Total de números ímpares: " + counterOdd);
 		}
+
+		scanner.close();
 	}
 
 }
