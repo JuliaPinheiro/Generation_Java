@@ -19,6 +19,8 @@ public class Ex05 {
 		} while (number != 0);
 
 		System.out.println("A soma dos números positivos é: " + sum);
+		scanner.close();
+		
 
 	}
 
