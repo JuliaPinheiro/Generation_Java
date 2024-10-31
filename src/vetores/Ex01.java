@@ -8,7 +8,6 @@ public class Ex01 {
 		Scanner scanner = new Scanner(System.in);
 
 		boolean encontrado = false;
-
 		int[] numeros = { 2, 5, 1, 3, 4, 9, 7, 8, 10, 6 };
 
 		System.out.print("Informe um número entre 1 - 10: ");
