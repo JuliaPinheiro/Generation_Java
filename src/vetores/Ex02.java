@@ -22,7 +22,7 @@ public class Ex02 {
 			}
 
 			if (i % 2 != 0) {
-				indiceImpar[countImpar++] = numeros[i];	
+				indiceImpar[countImpar++] = numeros[i];
 			}
 		}
 
@@ -46,4 +46,5 @@ public class Ex02 {
 		scanner.close();
 
 	}
+		
 }
