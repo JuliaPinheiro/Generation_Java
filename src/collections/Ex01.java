@@ -1,4 +1,4 @@
-package Collections;
+package collections;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -22,5 +22,6 @@ public class Ex01 {
 		for (String cor : cores) {
 			System.out.println("Ordenar as cores:" + cor);
 		}
+	
 	}
 }
