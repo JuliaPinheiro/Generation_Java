@@ -25,7 +25,5 @@ public class Ex03 {
 		}
 
 		scanner.close();
-
 	}
-
 }
