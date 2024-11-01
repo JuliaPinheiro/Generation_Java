@@ -22,6 +22,6 @@ public class Ex01 {
 		for (String cor : cores) {
 			System.out.println("Ordenar as cores:" + cor);
 		}
-	
+		scanner.close();
 	}
 }
