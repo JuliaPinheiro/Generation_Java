@@ -1,7 +1,6 @@
 package collections;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Scanner;
 
 public class Ex01 {
@@ -18,7 +17,8 @@ public class Ex01 {
 
 		System.out.println("Listar todas as cores:" + cores);
 
-		Collections.sort(cores);
+		cores.sort(null);
+		
 		for (String cor : cores) {
 			System.out.println("Ordenar as cores:" + cor);
 		}
