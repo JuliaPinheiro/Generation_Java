@@ -19,9 +19,7 @@ public class Ex02 {
 			System.out.println("O numero " + numero + " está localizado na posição: " + valor.indexOf(numero));
 		} else {
 			System.out.println("O numero " + numero + " não foi encontrado! ");
-
 		}
-
 		scanner.close();
 	}
 }
