@@ -1,4 +1,4 @@
-package estrutura.de.dados;
+package estruturaDeDados;
 
 import java.util.Scanner;
 import java.util.Stack;
@@ -52,6 +52,7 @@ public class Pilha {
 
 		} while (opcao != 0);
 
+		scanner.close();
 	}
 
 }

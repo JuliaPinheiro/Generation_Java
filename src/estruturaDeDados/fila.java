@@ -1,4 +1,4 @@
-package estrutura.de.dados;
+package estruturaDeDados;
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -1,4 +1,4 @@
-package laco.repeticao;
+package lacoDeRepeticao;
 
 import java.util.Scanner;
 
